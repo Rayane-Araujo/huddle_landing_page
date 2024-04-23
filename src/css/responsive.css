@@ -1,0 +1,62 @@
+@media (max-width:768px) {
+    body {
+        height: fit-content;
+        background: url('../images/bg-mobile.svg');
+        background-color: #674baf;
+        background-size: contain;
+        padding: 20px;
+        min-height: 100vh;
+    }
+
+    .logo img {
+        display: flex;
+        width: 50%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .content .illustration-mockups {
+        width: 100%;
+    }
+
+    .info h1 {
+        font-size: 1.4rem;
+    }
+
+    .content .info .btn {
+        padding: 12px 80px;
+    }
+
+    .contact .navegation .socials {
+        justify-content: center;
+    }
+}
+
+@media (max-width:425px){
+    body {
+        height: fit-content;
+        background-size: contain;
+        min-height: 100vh;
+        display: flex;
+        gap: 20px;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 50%;
+    }
+
+
+    .content {
+        gap: 70px;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+}

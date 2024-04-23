@@ -1,0 +1,101 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #674baf;
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 40px;
+    height: 100vh;
+}
+
+
+.logo img {
+  margin-bottom: 40px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .illustration-mockups {
+    content: url('../images/illustration-mockups.svg');
+    width: 100%;
+}
+
+h1, p {
+    margin-bottom: 20px;
+}
+
+button, p {
+    font-weight: 400;
+}
+
+.info {
+    padding: 45px;
+} 
+
+.info h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.info p {
+    color: #fff;
+    font-size: clamp(1rem, 1.35vw, 4rem);
+    line-height: clamp(2rem, 3.5vh, auto);
+    margin: 15px 0px 30px;
+}
+
+.btn {
+    color: #674baf;
+    border-radius: 50px;
+    border: 0;
+    padding: 12px 50px;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:  #e882e8;
+    color: #fff;
+}
+
+.contact .socials {
+    display: flex;
+    justify-content: flex-end;     
+} 
+
+
+.contact  .navegation .socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    height: 2rem;
+    width: 2.5rem;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+
+.contact  .navegation .socials a:hover {
+    color: #ff42ff;
+    border-color: #ff42ff;
+} 
+
+
+
+
+
+
