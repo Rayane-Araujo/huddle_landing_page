@@ -90,8 +90,8 @@ button, p {
 }
 
 .contact  .navegation .socials a:hover {
-    color: #ff42ff;
-    border-color: #ff42ff;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
 } 
 
 
