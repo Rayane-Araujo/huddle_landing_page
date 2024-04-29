@@ -4,7 +4,8 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #674baf;
+    background-color:  hsl(257, 40%, 49%);
+    color: hsl(0, 0%, 100%);
     background-image: url('../images/bg-desktop.svg');
     background-size: cover;
     margin: 40px;
@@ -42,21 +43,19 @@ button, p {
 
 .info h1 {
     font-family: "Poppins", sans-serif;
-    color: #fff;
     font-size: clamp(2.7rem, 3.5vw, 9rem);
     line-height: clamp(2.5rem, 2.5vw, auto);
     text-transform: capitalize;
 }
 
 .info p {
-    color: #fff;
     font-size: clamp(1.65rem, 1.35vw, 4rem);
     line-height: clamp(2rem, 3.5vh, auto);
     margin: 15px 0px 30px;
 }
 
 .btn {
-    color: #674baf;
+    color:  hsl(257, 40%, 49%);
     border-radius: 50px;
     border: 0;
     padding: 20px 60px;
@@ -68,8 +67,8 @@ button, p {
 }
 
 .btn:hover {
-    background-color:  #e882e8;
-    color: #fff;
+    background-color:  hsl(300, 69%, 71%);
+    color: hsl(0, 0%, 100%);
 }
 
 .contact {
@@ -85,7 +84,7 @@ button, p {
 
 
 .contact  .navegation  ul li a {
-    border: 1px solid #ffffff;
+    border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
