@@ -1,9 +1,12 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     background-color: #674baf;
     background-image: url('../images/bg-desktop.svg');
     background-size: cover;
-    overflow-x: hidden;
     margin: 40px;
     height: 100vh;
 }
@@ -26,7 +29,7 @@ body {
 }
 
 h1, p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 button, p {
@@ -39,15 +42,15 @@ button, p {
 
 .info h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
     color: #fff;
-    font-size: 40px;
+    font-size: clamp(2.7rem, 3.5vw, 9rem);
+    line-height: clamp(2.5rem, 2.5vw, auto);
     text-transform: capitalize;
 }
 
 .info p {
     color: #fff;
-    font-size: clamp(1rem, 1.35vw, 4rem);
+    font-size: clamp(1.65rem, 1.35vw, 4rem);
     line-height: clamp(2rem, 3.5vh, auto);
     margin: 15px 0px 30px;
 }
@@ -59,7 +62,7 @@ button, p {
     padding: 12px 50px;
     transition: 0.2s ease-in-out;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -68,28 +71,31 @@ button, p {
     color: #fff;
 }
 
-.contact .socials {
+.contact {
     display: flex;
-    justify-content: flex-end;     
+    justify-content: flex-end; 
 } 
 
+.contact .navegation ul {
+    display: flex;
+    margin-top: 5em;
+    gap: 10px;
+}
 
-.contact  .navegation .socials a {
+
+.contact  .navegation  ul li a {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    transition: 0.3s ease-in-out;
-    height: 2rem;
-    width: 2.5rem;
-    font-size: 1.3rem;
-    padding-bottom: 5px;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
 }
 
-.contact  .navegation .socials a:hover {
+.contact  .navegation  ul li a:hover {
     color: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
 } 

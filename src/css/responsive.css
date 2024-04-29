@@ -1,7 +1,7 @@
-@media (max-width:768px) {
+@media (max-width:650px) {
     body {
         height: fit-content;
-        background: url('../images/bg-mobile.svg');
+        background: url('../images/bg-mobile.svg') no-repeat;
         background-color: #674baf;
         background-size: contain;
         padding: 20px;
@@ -24,20 +24,29 @@
         width: 100%;
     }
 
-    .info h1 {
-        font-size: 1.4rem;
+    .content .info h1 {
+        font-size: clamp(2rem, 1.35vw, 4rem);
+        line-height: clamp(1.3rem, 3.5vh, auto);
     }
+
+    .content .info p {
+        font-size: clamp(1.2rem, 1.35vw, 4rem);
+        line-height: clamp(1rem, 3.5vh, auto);
+        margin: 15px 0px 30px;
+    }
+
 
     .content .info .btn {
         padding: 12px 80px;
     }
 
-    .contact .navegation .socials {
+    .contact {
         justify-content: center;
-    }
+        margin-top: 8em;
+     }
 }
 
-@media (max-width:425px){
+@media (max-width:375px){
     body {
         height: fit-content;
         background-size: contain;
@@ -54,9 +63,5 @@
 
     .content {
         gap: 70px;
-    }
-
-    .contact {
-        margin-top: 20px;
     }
 }
