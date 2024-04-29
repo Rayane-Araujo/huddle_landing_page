@@ -59,8 +59,9 @@ button, p {
     color: #674baf;
     border-radius: 50px;
     border: 0;
-    padding: 12px 50px;
+    padding: 20px 60px;
     transition: 0.2s ease-in-out;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
     text-align: center;
     font-size: 2rem;
     cursor: pointer;
